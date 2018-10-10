@@ -1,16 +1,16 @@
-********************************************************************************************* 
-****** WARNING: THIS MODULE FOR MOODLE 2.2 ****** 
+*********************************************************************************************
+****** WARNING: THIS MODULE FOR MOODLE 3.X ******
 *********************************************************************************************
 
 --------
 ABOUT
 --------
-This is version 2.x of the "mediaboard" module (mediaboard).
+This is version 3.x of the "mediaboard" module (mediaboard).
 
-2.x release is compatible only with Moodle 2.2
+3.x release is compatible only with Moodle 3.X
 
 The "mediaboard" module is developed by
-    Igor Nikulin, Paul Daniels.
+    Igor Nikulin, Paul Daniels, Nobuhiro KUMAI.
 
 This module may be distributed under the terms of the General Public License
 (see http://www.gnu.org/licenses/gpl.txt for details)
@@ -34,7 +34,7 @@ Install FFMPEG with lame support
 wget http://easynews.dl.sourceforge.net/sourceforge/lame/lame-3.98.4.tar.gz; tar -xvf lame-3.98.4.tar.gz; cd lame-3.98.4;./configure; sudo make && make install
 - Removed the pre-compiled ffmpeg installation: apt-get remove ffmpeg
 - Downloaded its source: svn checkout svn://svn.ffmpeg.org/ffmpeg/trunk ffmpeg
-- Installed the source setting the –enable-libmp3lame option up: sudo ./configure –   -enable-libmp3lame; sudo make && make install
+- Installed the source setting the ï¿½enable-libmp3lame option up: sudo ./configure    -enable-libmp3lame; sudo make && make install
 - Bug in Cent OS 5, command for fixing bug : ldconfig /usr/local/lib
 
 Warring! Be careful, you can kill your server if you make a mistake.
