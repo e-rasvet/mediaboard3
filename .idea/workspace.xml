@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e1b37584-4255-4daa-bfe4-5d104272b518" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ajaxupload.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/ajaxupload.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2565">
+              <caret line="171" column="36" lean-forward="false" selection-start-line="171" selection-start-column="26" selection-end-line="171" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9870">
+              <caret line="658" column="0" lean-forward="false" selection-start-line="658" selection-start-column="0" selection-end-line="658" selection-end-column="0" />
+              <folding>
+                <marker date="1539098768519" expanded="true" signature="9129:9364" ph="UPDATE {file... " />
+                <marker date="1539098768519" expanded="true" signature="9543:9778" ph="UPDATE {file... " />
+                <marker date="1539098768519" expanded="true" signature="14703:14942" ph="..." />
+                <marker date="1539098768519" expanded="true" signature="14851:14936" ph="..." />
+                <marker date="1539098768519" expanded="true" signature="14892:14930" ph="..." />
+                <marker date="1539098768519" expanded="true" signature="15091:15409" ph="..." />
+                <marker date="1539098768519" expanded="true" signature="15153:15399" ph="{...}" />
+                <marker date="1539098768519" expanded="true" signature="15938:15954" ph="..." />
+                <marker date="1539098768519" expanded="true" signature="16659:17104" ph="..." />
+                <marker date="1539098768519" expanded="true" signature="16704:17060" ph="{...}" />
+                <marker date="1539098768519" expanded="true" signature="16766:17042" ph="{...}" />
+                <marker date="1539098768519" expanded="true" signature="18754:18989" ph="..." />
+                <marker date="1539098768519" expanded="true" signature="18902:18983" ph="..." />
+                <marker date="1539098768519" expanded="true" signature="18943:18977" ph="..." />
+                <marker date="1539098768519" expanded="true" signature="19570:19881" ph="..." />
+                <marker date="1539098768519" expanded="true" signature="21664:22743" ph="..." />
+                <marker date="1539098768519" expanded="true" signature="21714:22540" ph="{&quot;name&quot;: \'EXTERNAL_FRAGMENT\'...}" />
+                <marker date="1539098768519" expanded="true" signature="21808:21934" ph="{&quot;XTERNAL_FRAGMENT&quot;: XTERNAL_FRAGMENT...}" />
+                <marker date="1539098768519" expanded="true" signature="22076:22222" ph="{...}" />
+                <marker date="1539098768519" expanded="true" signature="22271:22530" ph="{...}" />
+                <marker date="1539098768519" expanded="true" signature="22574:22726" ph="{...}" />
+                <marker date="1539098768519" expanded="true" signature="22586:22637" ph="/*...*/" />
+                <marker date="1539098768519" expanded="true" signature="23775:23792" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recordsforms.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/recordsforms.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="123" column="16" lean-forward="true" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
+              <folding>
+                <marker date="1539099055033" expanded="true" signature="6026:6469" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>new object;</find>
+      <find>add_to_log</find>
+      <find>get_context_instance</find>
+      <find>get_context_instance(CONTEXT_MODULE,</find>
+      <find>get_context_instance(</find>
+      <find>get_context_instance(CONTEXT_USER</find>
+      <find>285</find>
+      <find>session_get_instance</find>
+      <find>check_browser_version</find>
+      <find>ajaxupload.js</find>
+      <find>id_category</find>
+      <find>slideslist</find>
+      <find>ajaxupload</find>
+      <find>category</find>
+      <find>embedSWF</find>
+      <find>AjaxUpload</find>
+      <find>flashvars</find>
+      <find>mp3_flash_recorder</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>new stdClass();</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/version.php" />
+        <option value="$PROJECT_DIR$/question_test.php" />
+        <option value="$PROJECT_DIR$/questions.php" />
+        <option value="$PROJECT_DIR$/uploadmp3.php" />
+        <option value="$PROJECT_DIR$/ajax.php" />
+        <option value="$PROJECT_DIR$/deletelikes.php" />
+        <option value="$PROJECT_DIR$/grade.php" />
+        <option value="$PROJECT_DIR$/mobileupload.php" />
+        <option value="$PROJECT_DIR$/submissions.php" />
+        <option value="$PROJECT_DIR$/uploadmp3.php.old" />
+        <option value="$PROJECT_DIR$/view.php" />
+        <option value="$PROJECT_DIR$/uploadimageajax.php" />
+        <option value="$PROJECT_DIR$/js/niftyplayer.js" />
+        <option value="$PROJECT_DIR$/type/online/mediaboard.class.php" />
+        <option value="$PROJECT_DIR$/lib.php" />
+        <option value="$PROJECT_DIR$/js/ajaxupload.js" />
+        <option value="$PROJECT_DIR$/js/swfobject.js" />
+        <option value="$PROJECT_DIR$/edit.php" />
+        <option value="$PROJECT_DIR$/recordsforms.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="811" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mediaboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mediaboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="mediaboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mediaboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/getid3" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1b37584-4255-4daa-bfe4-5d104272b518" name="Default" comment="" />
+      <created>1538578514722</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538578514722</updated>
+      <workItem from="1538578520970" duration="1513000" />
+      <workItem from="1538730376262" duration="2826000" />
+      <workItem from="1538932828213" duration="606000" />
+      <workItem from="1539061193767" duration="2601000" />
+      <workItem from="1539145334566" duration="62000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7608000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1440" height="811" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="QuickSloth" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.49713877" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/ajaxupload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9870">
+          <caret line="658" column="0" lean-forward="false" selection-start-line="658" selection-start-column="0" selection-end-line="658" selection-end-column="0" />
+          <folding>
+            <marker date="1539098768519" expanded="true" signature="9129:9364" ph="UPDATE {file... " />
+            <marker date="1539098768519" expanded="true" signature="9543:9778" ph="UPDATE {file... " />
+            <marker date="1539098768519" expanded="true" signature="14703:14942" ph="..." />
+            <marker date="1539098768519" expanded="true" signature="14851:14936" ph="..." />
+            <marker date="1539098768519" expanded="true" signature="14892:14930" ph="..." />
+            <marker date="1539098768519" expanded="true" signature="15091:15409" ph="..." />
+            <marker date="1539098768519" expanded="true" signature="15153:15399" ph="{...}" />
+            <marker date="1539098768519" expanded="true" signature="15938:15954" ph="..." />
+            <marker date="1539098768519" expanded="true" signature="16659:17104" ph="..." />
+            <marker date="1539098768519" expanded="true" signature="16704:17060" ph="{...}" />
+            <marker date="1539098768519" expanded="true" signature="16766:17042" ph="{...}" />
+            <marker date="1539098768519" expanded="true" signature="18754:18989" ph="..." />
+            <marker date="1539098768519" expanded="true" signature="18902:18983" ph="..." />
+            <marker date="1539098768519" expanded="true" signature="18943:18977" ph="..." />
+            <marker date="1539098768519" expanded="true" signature="19570:19881" ph="..." />
+            <marker date="1539098768519" expanded="true" signature="21664:22743" ph="..." />
+            <marker date="1539098768519" expanded="true" signature="21714:22540" ph="{&quot;name&quot;: \'EXTERNAL_FRAGMENT\'...}" />
+            <marker date="1539098768519" expanded="true" signature="21808:21934" ph="{&quot;XTERNAL_FRAGMENT&quot;: XTERNAL_FRAGMENT...}" />
+            <marker date="1539098768519" expanded="true" signature="22076:22222" ph="{...}" />
+            <marker date="1539098768519" expanded="true" signature="22271:22530" ph="{...}" />
+            <marker date="1539098768519" expanded="true" signature="22574:22726" ph="{...}" />
+            <marker date="1539098768519" expanded="true" signature="22586:22637" ph="/*...*/" />
+            <marker date="1539098768519" expanded="true" signature="23775:23792" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recordsforms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="126" column="175" lean-forward="false" selection-start-line="126" selection-start-column="175" selection-end-line="126" selection-end-column="175" />
+          <folding>
+            <marker date="1539099055033" expanded="true" signature="6026:6469" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/type/online/mediaboard.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5790">
+          <caret line="386" column="9" lean-forward="false" selection-start-line="386" selection-start-column="9" selection-end-line="386" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/niftyplayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="28" lean-forward="false" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getid3/getid3.lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4290">
+          <caret line="286" column="20" lean-forward="false" selection-start-line="286" selection-start-column="20" selection-end-line="286" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileupload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/submissions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="69" lean-forward="false" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploadimageajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="8" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploadmp3.php.old">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="46" lean-forward="false" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68445">
+          <caret line="4563" column="0" lean-forward="true" selection-start-line="3935" selection-start-column="0" selection-end-line="4563" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56865">
+          <caret line="3791" column="38" lean-forward="false" selection-start-line="3791" selection-start-column="38" selection-end-line="3791" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/type/online/mediaboard.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5790">
+          <caret line="386" column="9" lean-forward="true" selection-start-line="386" selection-start-column="9" selection-end-line="386" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/niftyplayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="28" lean-forward="true" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getid3/getid3.lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4290">
+          <caret line="286" column="20" lean-forward="false" selection-start-line="286" selection-start-column="20" selection-end-line="286" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileupload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/submissions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="69" lean-forward="false" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploadimageajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="8" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploadmp3.php.old">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="46" lean-forward="false" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="70" lean-forward="false" selection-start-line="0" selection-start-column="70" selection-end-line="0" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="70" lean-forward="false" selection-start-line="0" selection-start-column="70" selection-end-line="0" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question_test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/questions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploadmp3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="32" column="42" lean-forward="false" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deletelikes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileupload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/submissions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="69" lean-forward="false" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploadmp3.php.old">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploadimageajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="8" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getid3/getid3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getid3/extension.cache.dbm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getid3/getid3.lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4155">
+          <caret line="286" column="20" lean-forward="false" selection-start-line="286" selection-start-column="20" selection-end-line="286" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/niftyplayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="73" column="28" lean-forward="false" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/type/online/mediaboard.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5790">
+          <caret line="386" column="9" lean-forward="false" selection-start-line="386" selection-start-column="9" selection-end-line="386" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4534" column="1" lean-forward="true" selection-start-line="4534" selection-start-column="1" selection-end-line="4534" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="136" column="31" lean-forward="false" selection-start-line="136" selection-start-column="31" selection-end-line="136" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/swfobject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="3" column="10071" lean-forward="true" selection-start-line="3" selection-start-column="10071" selection-end-line="3" selection-end-column="10071" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ajaxupload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="171" column="36" lean-forward="false" selection-start-line="171" selection-start-column="26" selection-end-line="171" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9870">
+          <caret line="658" column="0" lean-forward="false" selection-start-line="658" selection-start-column="0" selection-end-line="658" selection-end-column="0" />
+          <folding>
+            <marker date="1539098768519" expanded="true" signature="9129:9364" ph="UPDATE {file... " />
+            <marker date="1539098768519" expanded="true" signature="9543:9778" ph="UPDATE {file... " />
+            <marker date="1539098768519" expanded="true" signature="14703:14942" ph="..." />
+            <marker date="1539098768519" expanded="true" signature="14851:14936" ph="..." />
+            <marker date="1539098768519" expanded="true" signature="14892:14930" ph="..." />
+            <marker date="1539098768519" expanded="true" signature="15091:15409" ph="..." />
+            <marker date="1539098768519" expanded="true" signature="15153:15399" ph="{...}" />
+            <marker date="1539098768519" expanded="true" signature="15938:15954" ph="..." />
+            <marker date="1539098768519" expanded="true" signature="16659:17104" ph="..." />
+            <marker date="1539098768519" expanded="true" signature="16704:17060" ph="{...}" />
+            <marker date="1539098768519" expanded="true" signature="16766:17042" ph="{...}" />
+            <marker date="1539098768519" expanded="true" signature="18754:18989" ph="..." />
+            <marker date="1539098768519" expanded="true" signature="18902:18983" ph="..." />
+            <marker date="1539098768519" expanded="true" signature="18943:18977" ph="..." />
+            <marker date="1539098768519" expanded="true" signature="19570:19881" ph="..." />
+            <marker date="1539098768519" expanded="true" signature="21664:22743" ph="..." />
+            <marker date="1539098768519" expanded="true" signature="21714:22540" ph="{&quot;name&quot;: \'EXTERNAL_FRAGMENT\'...}" />
+            <marker date="1539098768519" expanded="true" signature="21808:21934" ph="{&quot;XTERNAL_FRAGMENT&quot;: XTERNAL_FRAGMENT...}" />
+            <marker date="1539098768519" expanded="true" signature="22076:22222" ph="{...}" />
+            <marker date="1539098768519" expanded="true" signature="22271:22530" ph="{...}" />
+            <marker date="1539098768519" expanded="true" signature="22574:22726" ph="{...}" />
+            <marker date="1539098768519" expanded="true" signature="22586:22637" ph="/*...*/" />
+            <marker date="1539098768519" expanded="true" signature="23775:23792" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recordsforms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="123" column="16" lean-forward="true" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
+          <folding>
+            <marker date="1539099055033" expanded="true" signature="6026:6469" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
