@@ -1,16 +1,16 @@
-********************************************************************************************* 
-****** WARNING: THIS MODULE FOR MOODLE 2.2 ****** 
+*********************************************************************************************
+****** WARNING: THIS MODULE FOR MOODLE 3.X ******
 *********************************************************************************************
 
 --------
 ABOUT
 --------
-This is version 2.x of the "mediaboard" module (mediaboard).
+This is version 3.x of the "mediaboard" module (mediaboard).
 
-2.x release is compatible only with Moodle 2.2
+3.x release is compatible only with Moodle 3.X
 
 The "mediaboard" module is developed by
-    Igor Nikulin, Paul Daniels.
+    Igor Nikulin, Paul Daniels, Nobuhiro KUMAI.
 
 This module may be distributed under the terms of the General Public License
 (see http://www.gnu.org/licenses/gpl.txt for details)
