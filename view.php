@@ -9,13 +9,16 @@
     $groupshow        = optional_param('groupshow', 'group_all', PARAM_TEXT);  // mediaboard ID
     $orderby          = optional_param('orderby', NULL, PARAM_CLEAN); 
     $sort             = optional_param('sort', NULL, PARAM_CLEAN); 
-    $page             = optional_param('page', 1, PARAM_INT); 
+    $page             = optional_param('page', 0, PARAM_INT);
     $cid              = optional_param('cid', 1, PARAM_INT); 
     $p                = optional_param('p', NULL, PARAM_CLEAN); 
     $delete           = optional_param('delete', NULL, PARAM_CLEAN); 
     $textcomment      = optional_param('textcomment', NULL, PARAM_CLEAN); 
     $searchtext       = optional_param('searchtext', NULL, PARAM_CLEAN); 
-    $act              = optional_param('act', NULL, PARAM_TEXT); 
+    $act              = optional_param('act', NULL, PARAM_TEXT);
+
+
+    $countPerPage = 10;
 
     if ($id) {
         if (! $cm = get_coursemodule_from_id('mediaboard', $id)) {
@@ -205,7 +208,11 @@
         echo html_writer::tag('div', '', array("style"=>"clear:both"));
         
     } else {
-        $from = $page * 30 - 30;
+        $from = ($page + 1) * $countPerPage - $countPerPage;
+
+        if ($from < 0) {
+            $from = 0;
+        }
         
         if ($searchtext) {
           if ($groupshow == "group_all") {
@@ -218,16 +225,20 @@
         }
       
         if(!$searchtext){
-           $data = $DB->get_records_sql("SELECT * FROM {mediaboard_files} WHERE instance={$id}  ORDER BY timemodified LIMIT {$from}, 30");
+           $data = $DB->get_records_sql("SELECT * FROM {mediaboard_files} WHERE instance={$id}  ORDER BY timemodified LIMIT {$from}, {$countPerPage}");
+           $dataCount = $DB->get_records_sql("SELECT * FROM {mediaboard_files} WHERE instance={$id}  ORDER BY timemodified");
         }else  if ($groupshow == "group_all") {
-            $data = $DB->get_records_sql("SELECT * FROM {mediaboard_files} {$searchtextsql} ORDER BY timemodified LIMIT {$from}, 30");
+            $data = $DB->get_records_sql("SELECT * FROM {mediaboard_files} {$searchtextsql} ORDER BY timemodified LIMIT {$from}, {$countPerPage}");
+            $dataCount = $DB->get_records_sql("SELECT * FROM {mediaboard_files} {$searchtextsql} ORDER BY timemodified");
         } else if ($groupshow == "group_wg") {
-            $data = $DB->get_records_sql("SELECT * FROM {mediaboard_files} WHERE groupid=0 {$searchtextsql} ORDER BY timemodified LIMIT {$from}, 30");
+            $data = $DB->get_records_sql("SELECT * FROM {mediaboard_files} WHERE groupid=0 {$searchtextsql} ORDER BY timemodified LIMIT {$from}, {$countPerPage}");
+            $dataCount = $DB->get_records_sql("SELECT * FROM {mediaboard_files} WHERE groupid=0 {$searchtextsql} ORDER BY timemodified");
         } else {
-            $data = $DB->get_records_sql("SELECT * FROM {mediaboard_files} WHERE groupid={$groupshow} {$searchtextsql} ORDER BY timemodified LIMIT {$from}, 30");
+            $data = $DB->get_records_sql("SELECT * FROM {mediaboard_files} WHERE groupid={$groupshow} {$searchtextsql} ORDER BY timemodified LIMIT {$from}, {$countPerPage}");
+            $dataCount = $DB->get_records_sql("SELECT * FROM {mediaboard_files} WHERE groupid={$groupshow} {$searchtextsql} ORDER BY timemodified");
         }
         
-        $totalcount = count($data);
+        $totalcount = count($dataCount);
         
         echo $OUTPUT->box_start('generalbox');
         
@@ -242,7 +253,8 @@
     
         echo $OUTPUT->box_end();
     
-        $pagingbar = new paging_bar($totalcount, $page, 30, "view.php?id={$id}&groupshow={$groupshow}&");
+        $pagingbar = new paging_bar($totalcount, $page, $countPerPage, "view.php?id={$id}&groupshow={$groupshow}&");
+
         echo $OUTPUT->render($pagingbar); 
         
         if($data){

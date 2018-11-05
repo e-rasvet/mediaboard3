@@ -917,7 +917,8 @@ class mediaboard_base {
             print_error('invalidcoursemodule');
         }
 
-        $this->context = get_context_instance(CONTEXT_MODULE, $this->cm->id);
+        //$this->context = get_context_instance(CONTEXT_MODULE, $this->cm->id);
+        $this->context = context_module::instance($this->cm->id);
 
         if ($course) {
             $this->course = $course;
@@ -926,7 +927,7 @@ class mediaboard_base {
         } else if (! $this->course = $DB->get_record('course', array('id'=>$this->cm->course))) {
             print_error('invalidid', 'mediaboard');
         }
-        $this->coursecontext = context_module::instance($this->course->id);
+        $this->coursecontext = context_course::instance($this->course->id);
         $courseshortname = format_text($this->course->shortname, true, array('context' => $this->coursecontext));
 
         if ($mediaboard) {

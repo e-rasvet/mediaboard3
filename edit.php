@@ -336,9 +336,14 @@
 
     $PAGE->set_url('/mod/mediaboard/edit.php', array('id' => $id));
     
-    $PAGE->requires->js('/mod/mediaboard/js/jquery.min.js', true);
+    $PAGE->requires->js('/mod/mediaboard/js/jquery.min.js?2', true);
     $PAGE->requires->js('/mod/mediaboard/js/swfobject.js', true);
     $PAGE->requires->js('/mod/mediaboard/js/ajaxupload.js?1', true);
+
+
+$PAGE->requires->js('/mod/voiceshadow/js/WebAudioRecorder.min.js?3', true);
+$PAGE->requires->js('/mod/voiceshadow/js/main_vs_pl.js?12', true);
+
     
     $title = $course->shortname . ': ' . format_string($mediaboard->name);
     $PAGE->set_title($title);
@@ -602,7 +607,7 @@
                 $mform->addElement('textarea', 'itemyoutube', '', 'wrap="virtual" rows="5" cols="100"')->setValue($youtubeurl);
                    
         }
-        
+
         $this->add_action_buttons();
       }
     }
